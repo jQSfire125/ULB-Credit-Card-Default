@@ -32,4 +32,4 @@ Carcillo, Fabrizio; Dal Pozzolo, Andrea; Le Borgne, Yann-Aël; Caelen, Olivier; 
 Carcillo, Fabrizio; Le Borgne, Yann-Aël; Caelen, Olivier; Bontempi, Gianluca. **_Streaming active learning strategies for real-life credit card fraud detection: assessment and visualization_**, International Journal of Data Science and Analytics, 5,4,285-300,2018,Springer International Publishing  
 Bertrand Lebichot, Yann-Aël Le Borgne, Liyun He, Frederic Oblé, Gianluca Bontempi **_Deep-Learning Domain Adaptation Techniques for Credit Cards Fraud Detection_**, INNSBDDL 2019: Recent Advances in Big Data and Deep Learning, pp 78-88, 2019  
 Fabrizio Carcillo, Yann-Aël Le Borgne, Olivier Caelen, Frederic Oblé, Gianluca Bontempi **_Combining Unsupervised and Supervised Learning in Credit Card Fraud Detection_** Information Sciences, 2019  
-Yann-Aël Le Borgne, Gianluca Bontempi Machine Learning for Credit Card Fraud Detection - Practical Handbook  
+Yann-Aël Le Borgne, Gianluca Bontempi **_Machine Learning for Credit Card Fraud Detection_** - Practical Handbook  

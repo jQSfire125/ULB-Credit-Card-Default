@@ -4,15 +4,15 @@
 
 The goal of this project is to create a model that identifies fraudulent credit card transactions.
 
-The dataset contains transactions made by European cardholders, over two days in September 2013. The main problem with this type of problem is that the data is highly unbalanced. Only 0.173% of the transactios in this dataset are fradulent. There are 284,807 transactions of which 492 are fraudulent transactions. 
+The dataset contains transactions made over two days in September 2013 by European cardholders. The main problem with this type of problem is that the data is highly unbalanced. Only 0.173% of the transactios in this dataset are fradulent. There are 284,807 transactions of which 492 are fraudulent transactions. 
 
 Due to privacy and confidentiality issues, features **_V1_** to **_V28_** are the principal components of the original features after PCA transformation. There are only two features that are not transformed: **_Time_** and **_Amount_**. The target variable is **_Class_**, and it takes the value of 1 in case of fraud and 0 otherwise. 
 
 This is a classification project. 
 
-Because the classes are so unbalanced, it is recommended to use Area Under the Precision-Recall Curve (AUPRC) to measure accuracy. The more common Area Under Receiver Operating Characteristic (AUROC) is not recommended for highly unbalanced classification.
+It is recommended to use Area Under the Precision-Recall Curve (AUPRC) to measure accuracy because the classes are so unbalanced. Even though Area Under Receiver Operating Characteristic (AUROC) is more common, it is not recommended for highly unbalanced classification.
 
-We were able to get the best results using a Random Forest algorithm. The AUPRC of the best model was 0.8466. 
+The best results were obtained using a Random Forest algorithm. The AUPRC of the best model was 0.8466. 
 
 Credit card fraud increases costs for everyone and machine learning techniques can help flag fraudulent transactions and lower costs for banks, merchants and their customers.
 

@@ -4,7 +4,7 @@
 
 The goal of this project is to create a model that identifies fraudulent credit card transactions.
 
-The dataset contains transactions made over two days in September 2013 by European cardholders. The main problem with this type of problem is that the data is highly unbalanced. Only 0.173% of the transactios in this dataset are fradulent. There are 284,807 transactions of which 492 are fraudulent transactions. 
+The dataset contains transactions made over two days in September 2013 by European cardholders. The main problem with this type of problem is that the data is highly unbalanced. Only 0.173% of the transactions in this dataset are fraudulent. There are 284,807 transactions of which 492 are fraudulent transactions. 
 
 Due to privacy and confidentiality issues, features **_V1_** to **_V28_** are the principal components of the original features after PCA transformation. There are only two features that are not transformed: **_Time_** and **_Amount_**. The target variable is **_Class_**, and it takes the value of 1 in case of fraud and 0 otherwise. 
 
@@ -20,7 +20,7 @@ Credit card fraud increases costs for everyone and machine learning techniques c
 
 My version of the dataset was dowloaded from Kaggle: https://www.kaggle.com/mlg-ulb/creditcardfraud.
 
-The dataset has been collected and analysed during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (**Université Libre de Bruxelles**) on big data mining and fraud detection.
+The dataset has been collected and analyzed during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (**Université Libre de Bruxelles**) on big data mining and fraud detection.
 
 More details on current and past projects on related topics are available on https://www.researchgate.net/project/Fraud-detection-5 and the page of the [DefeatFraud](https://mlg.ulb.ac.be/wordpress/portfolio_page/defeatfraud-assessment-and-validation-of-deep-feature-engineering-and-learning-solutions-for-fraud-detection/) project.  
 #### Please refer to the following papers:
